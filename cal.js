@@ -23,23 +23,3 @@ function resl(){
     console.log(result);
     Answer.innerText = result;
 }
-
-
-
-
-/* function add(data){
-    Answer.innerText += data;
-    if (data != samevalue){
-        samevalue = data
-    }else{
-        Answer.innerText = Answer.innerText.slice(0,-1)
-    }
-} */
-//     if(data === 'Del') {
-//     //     let previous = Answer.innerText;
-//     //     console.log(previous.lastIndexOf(-1));
-//     document.getElementById("ans").innerText = Answer.innerText.slice(0,-4);
-//     }
-//    if(data == "C"){
-//     document.getElementById("ans").innerText = null;
-//    }
