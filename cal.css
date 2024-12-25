@@ -1,0 +1,47 @@
+.form{
+    background-color: rgb(242, 246, 246);
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 350px;
+    height: auto;
+    border-radius: 1rem;
+    margin: auto;
+    border: 5px solid rgb(15, 13, 15);
+    padding: 20px;
+}
+#ans{
+    padding: 44px;
+    font-size: 25px;
+    text-align: right;
+    margin: 2% auto;
+    border: 1px solid rgb(11, 3, 3);
+    width: 64%;
+    border-radius: 1rem;
+    max-width: 500px; 
+    max-height: 1em; 
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis
+}
+.butt {
+    padding: 15px 25px ;
+    font-size: 18px;
+    /* text-align: center; */
+    margin: 1%;
+    width: 20%;
+    border: none;
+    border: 1px solid rgb(22, 3, 3);
+    background-color: rgba(0, 0, 0, 0.393);
+    border-radius: 1rem;
+}
+body{
+    background-color: rgba(214, 113, 113, 0.142);
+    text-align: center;
+    padding-top: 5rem;
+}
+
+/* #div:hover::after {
+    content: 'Hey';
+    background: red;
+} */

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="cal.css">
+</head>
+<body>
+    <div class="form">
+        <div>
+            <div type="text" placeholder="0" id="ans" maxlength="10"></div>
+        </div>
+        <div >
+            <button class="butt" onclick="demo(this.innerText)"id="div">/</button>
+            <button class="butt" onclick="demo(this.innerText)"id="per">%</button>
+            <button class="butt" onclick="del()"id="delete" style="background-color: rgb(232, 89, 89);" >Del</button>
+            <button class="butt" onclick="clr()"id="clear">C</button><br>
+            <button class="butt" onclick="demo(this.innerText)"id="7">7</button>
+            <button class="butt" onclick="demo(this.innerText)"id="8">8</button>
+            <button class="butt" onclick="demo(this.innerText)"id="9">9</button>
+            <button class="butt" onclick="demo(this.innerText)"id="mul">*</button><br>
+            <button class="butt" onclick="demo(this.innerText)"id="4">4</button>
+            <button class="butt" onclick="demo(this.innerText)"id="5">5</button>
+            <button class="butt" onclick="demo(this.innerText)"id="6">6</button>
+            <button class="butt" onclick="demo(this.innerText)"id="sub">-</button><br>
+            <button class="butt" onclick="demo(this.innerText)"id="1">1</button>
+            <button class="butt" onclick="demo(this.innerText)"id="2">2</button>
+            <button class="butt" onclick="demo(this.innerText)"id="3">3</button>
+
+            <button class="butt" onclick="demo(this.innerText)"id="add">+</button><br>
+            
+            <button class="butt" onclick="demo(this.innerText)"id="00">00</button>
+            <button class="butt" onclick="demo(this.innerText)"id="0">0</button>
+            <button class="butt" onclick="demo(this.innerText)"id="dot">.</button>
+            <button class="butt" onclick="resl()"id="result" style="background-color: rgb(73, 175, 230);">=</button><br>
+
+        </div>    
+    </div>
+    <script src="./cal.js"></script>
+</body>
+</html>
